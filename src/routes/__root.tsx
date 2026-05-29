@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Shashank's Portfolio" },
+      { name: "description", content: "A premium Full Stack Developer portfolio showcasing expertise in MERN stack, REST APIs, and business automation." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Shashank's Portfolio" },
+      { property: "og:description", content: "A premium Full Stack Developer portfolio showcasing expertise in MERN stack, REST APIs, and business automation." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Shashank's Portfolio" },
+      { name: "twitter:description", content: "A premium Full Stack Developer portfolio showcasing expertise in MERN stack, REST APIs, and business automation." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/700e3927-06dc-4ef1-8164-9199a801d9af/id-preview-9cf60928--3fd20e20-0b25-477d-928d-c82c5835f94f.lovable.app-1780086415098.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/700e3927-06dc-4ef1-8164-9199a801d9af/id-preview-9cf60928--3fd20e20-0b25-477d-928d-c82c5835f94f.lovable.app-1780086415098.png" },
     ],
     links: [
       {
