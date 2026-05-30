@@ -1,17 +1,16 @@
 import { Section } from "./Section";
 
 const channels = [
-  { label: "Email", value: "shashank@example.com", href: "mailto:shashank@example.com" },
-  { label: "LinkedIn", value: "linkedin.com/in/shashanksoni", href: "https://linkedin.com/in/shashanksoni" },
-  { label: "GitHub", value: "github.com/shashanksoni", href: "https://github.com/shashanksoni" },
+  { label: "Email", value: "shashanksoni815@gmail.com", href: "mailto:shashanksoni815@gmail.com" },
+  { label: "LinkedIn", value: "linkedin.com/in/shashank-soni815", href: "https://linkedin.com/in/shashank-soni815" },
+  { label: "GitHub", value: "github.com/shashanksoni815", href: "https://github.com/shashanksoni815" },
 ];
 
 export function Contact() {
   return (
     <Section id="contact" eyebrow="05 — Contact" title="Let's build something durable.">
       <p className="mb-12 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-        Open to full-time roles, freelance engagements, and automation
-        projects. The fastest way to reach me is email.
+        Open to full-time opportunities, freelance projects, startup collaborations, and automation solutions. The fastest way to reach me is through email.
       </p>
       <ul className="divide-y divide-border border-y border-border">
         {channels.map((c) => (

@@ -15,16 +15,10 @@ export function About() {
       <div className="grid gap-12 md:grid-cols-5">
         <div className="md:col-span-3 space-y-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
           <p>
-            I&apos;m a Full Stack Developer focused on shipping production-grade
-            web applications and automation systems. I work across the MERN
-            stack — designing APIs, modeling data, and building interfaces that
-            feel fast and intentional.
+            I'm a Full Stack Developer focused on building production-ready web applications and automation systems. I work across the MERN stack, developing scalable APIs, modern user interfaces, and backend architectures designed for performance and maintainability.
           </p>
           <p>
-            Beyond engineering, I help teams scale through business automation
-            and lead generation workflows that turn manual work into repeatable
-            systems. I care about clean code, measurable outcomes, and solving
-            the actual problem.
+            Alongside development, I work on business automation and lead generation workflows that help companies improve efficiency and streamline operations. I focus on solving real business problems through practical and scalable technology solutions.
           </p>
         </div>
         <ul className="md:col-span-2 space-y-3 text-sm">

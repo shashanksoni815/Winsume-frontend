@@ -1,10 +1,16 @@
 import { Section } from "./Section";
 
 const responsibilities = [
-  "Software Development",
+  "Full Stack Development",
+  "Web Application Development",
+  "Backend API Development",
+  "Business Automation Systems",
   "Lead Generation",
+  "CRM Integrations",
   "Client Communication",
+  "Requirement Analysis",
   "Web Solutions",
+  "Performance Optimization",
 ];
 
 export function Experience() {
@@ -22,6 +28,9 @@ export function Experience() {
               Full Stack Engineer
             </h3>
             <p className="mt-1 text-sm text-muted-foreground">Jaqyi.com</p>
+            <p className="mt-6 text-sm text-muted-foreground max-w-2xl leading-relaxed">
+              Working on scalable web applications, backend systems, automation workflows, and lead generation solutions. Collaborating with teams and clients to build practical software products that improve business operations and user experience.
+            </p>
             <ul className="mt-8 grid gap-px bg-border sm:grid-cols-2">
               {responsibilities.map((r) => (
                 <li

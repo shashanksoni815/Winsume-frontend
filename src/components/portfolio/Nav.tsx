@@ -21,9 +21,8 @@ export function Nav() {
 
   return (
     <header
-      className={`sticky top-0 z-50 border-b transition-colors duration-300 ${
-        scrolled ? "border-border bg-background/85 backdrop-blur" : "border-transparent bg-background"
-      }`}
+      className={`fixed top-0 w-full z-50 border-b transition-colors duration-300 ${scrolled ? "border-border bg-background/85 backdrop-blur" : "border-transparent bg-background"
+        }`}
     >
       <nav className="flex items-center justify-between px-6 py-5 sm:px-10 md:px-16 lg:px-24">
         <a href="#home" className="text-sm font-semibold tracking-tight">
