@@ -13,7 +13,7 @@ export function Section({ id, eyebrow, title, children }: SectionProps) {
       id={id}
       className="border-t border-border px-6 py-24 sm:px-10 md:px-16 lg:px-24 lg:py-32"
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl w-full">
         <div className="mb-12 flex items-center gap-3 text-xs uppercase tracking-[0.25em] text-muted-foreground">
           <span className="h-px w-8 bg-border" />
           {eyebrow}
